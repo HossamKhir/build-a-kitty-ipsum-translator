@@ -512,3 +512,10 @@ history -a
 grep --color 'dogchow'
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+sh -c "$(curl -fsSL https://githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
