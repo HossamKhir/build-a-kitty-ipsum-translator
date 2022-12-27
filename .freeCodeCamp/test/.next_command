@@ -1,0 +1,17 @@
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git switch -c main
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add kitty_ipsum_1.txt kitty_ipsum_2.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo hello bash
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
