@@ -36,3 +36,12 @@ history -a
 bad_command 2> stderr.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+cat stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add stdout.txt stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo hello bash > stdout.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
