@@ -132,3 +132,7 @@ echo Hossam
 ./script.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo Hossam
+./script.sh 2> stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
