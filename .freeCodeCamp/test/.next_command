@@ -272,3 +272,9 @@ history -a
 cat name.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+sed '/r/2/' name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+sed 's/r/2/' name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
