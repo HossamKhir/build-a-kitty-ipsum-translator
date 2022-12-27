@@ -110,3 +110,9 @@ history -a
 chmod +x script.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '#!/bin/bash' >> script.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
