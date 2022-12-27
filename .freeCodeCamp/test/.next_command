@@ -116,3 +116,6 @@ history -a
 echo '#!/bin/bash' >> script.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo 'read NAME' >> script.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
