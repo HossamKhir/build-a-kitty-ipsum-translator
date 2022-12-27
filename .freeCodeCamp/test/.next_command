@@ -519,3 +519,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+exit 0
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+exit 0
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
