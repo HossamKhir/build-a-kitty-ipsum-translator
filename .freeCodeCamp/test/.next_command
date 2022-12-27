@@ -222,3 +222,6 @@ history -a
 man grep
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+grep meow kitty_ipsum_1.txt --color
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
